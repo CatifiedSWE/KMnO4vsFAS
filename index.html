@@ -221,7 +221,7 @@ const molarity = parseFloat(document.getElementById('molarityFAS').value);
     if(!isNaN(molarity) ) {
 
       const requiredMass = molarity * 392 * 0.1;
-      document.getElementById('requiredMassResult').textContent = requiredMass.toFixed(2);
+      document.getElementById('requiredMassResult').textContent = `${requiredMass.toFixed(2)}g`;
       
 
     }
