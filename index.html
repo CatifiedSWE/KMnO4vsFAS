@@ -240,7 +240,7 @@ const molarity = parseFloat(document.getElementById('molarityFAS').value);
  
     if (!isNaN(molarityFAS) && !isNaN(readingF)) {
       const molarityK = (molarityFAS * 1 * 20)/(readingF * 5);
-        const strengthK = molarityK * 198;   
+        const strengthK = molarityK * 158;   
  
       result.innerHTML = `<h4>Molarity: ${molarityK.toFixed(4)} M</h4> <h4>Strength: ${strengthK.toFixed(2)} g/L<h4>`
     }
